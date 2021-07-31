@@ -1,0 +1,3 @@
+class SharedPre{
+  static Shared
+}

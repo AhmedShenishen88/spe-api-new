@@ -7,7 +7,7 @@ class CubitShareBl extends Cubit<CubitShareState> {
   static CubitShareBl get(context) => BlocProvider.of(context);
 
   bool isDark = false;
-
+//hello
   void changeThem() {
     isDark = !isDark;
     emit(ChangeThemeScreen());

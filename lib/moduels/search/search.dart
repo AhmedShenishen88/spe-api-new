@@ -25,7 +25,7 @@ class SearchScreen extends StatelessWidget {
                   controller: formField,
                   validator: (String value) {
                     if (value.isEmpty) {
-                      return 'Text must not be Empty';
+                      return 'Search must not be Empty';
                     }
                     return null;
                   },
